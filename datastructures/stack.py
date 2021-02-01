@@ -16,9 +16,8 @@ class stack():
 
     def pop(self):
         if self.__size != 0:
-            popper = self.__list[self.__size]
             self.__size -= 1
-            return popper
+            return self.__list[self.__size]
     
     def peek(self) -> str:
         if self.__size != 0:

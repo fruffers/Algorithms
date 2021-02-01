@@ -2,6 +2,7 @@
 # divides list in half until val is found
 # split in half each time use left edge and right edge and middle,
 # evaluate if val < or > than middle and move it past left or right edge
+# Fast O(logn)
 
 list = [1,2,3,4,5,6]
 val = 5 

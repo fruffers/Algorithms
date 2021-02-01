@@ -1,3 +1,4 @@
+# slow because it doesn't make use of a sorted array O(N)
 def linearSearch(arr,val):
     for i in range(len(arr)):
         if arr[i] == val:

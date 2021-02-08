@@ -2,7 +2,7 @@ from collections import defaultdict
 graph = defaultdict(list)
 
 def bfs(start):
-    visited = [False] * (max(self.graph) + 1)
+    visited = [False] * (max(graph) + 1)
     queue = []
 
     # queue start node and visit

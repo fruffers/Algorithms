@@ -15,7 +15,7 @@ def bfs(start):
         start = queue.pop()
         print(start)
         # visit all adjacent nodes and enqueue them
-        for i in graph[s]:
+        for i in graph[start]:
             if visited[i] == False:
                 queue.append(i)
                 visited[i] = True
